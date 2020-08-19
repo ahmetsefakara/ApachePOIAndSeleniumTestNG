@@ -20,7 +20,7 @@ public class App {
 			System.out.println("PhoneList is empty");
 		}
 
-		Phone randomPhone = (Phone) ExcelUtil.pickRandomItem(phoneList);
-		System.out.println(randomPhone.getName() + " " + randomPhone.getModel());
+//		Phone randomPhone = (Phone) ExcelUtil.pickRandomItem(phoneList);
+//		System.out.println(randomPhone.getName() + " " + randomPhone.getModel());
 	}
 }
