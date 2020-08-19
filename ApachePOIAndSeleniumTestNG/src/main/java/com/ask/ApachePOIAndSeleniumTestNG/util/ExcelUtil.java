@@ -6,7 +6,7 @@ import java.util.Random;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
 
-public class ExcelUtil {
+public final class ExcelUtil {
 	public static final String EXCEL_FILE_PATH = "Excel1.xlsx";
 	public static final String PHONE_SHEET_NAME = "PhoneSheet";
 

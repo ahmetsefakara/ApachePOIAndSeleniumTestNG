@@ -1,6 +1,6 @@
 package com.ask.ApachePOIAndSeleniumTestNG.util;
 
-public class TestUtil {
+public final class TestUtil {
 	public static final String CHROME_DRIVER_NAME = "webdriver.chrome.driver";
 	public static final String CHROME_DRIVER_PATH = "C:\\Users\\ahmet\\eclipse-workspace-2018-09\\ApachePOIAndSeleniumTestNG\\ApachePOIAndSeleniumTestNG\\src\\test\\java\\com\\ask\\ApachePOIAndSeleniumTestNG\\drivers\\chromedriver.exe";
 	public static final String AMAZON_PATH = "https://www.amazon.com/";
