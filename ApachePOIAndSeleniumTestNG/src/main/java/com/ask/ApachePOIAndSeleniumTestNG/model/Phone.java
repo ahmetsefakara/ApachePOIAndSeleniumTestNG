@@ -1,4 +1,4 @@
-package com.ask.ApachePOIAndSeleniumTestNG.mode;
+package com.ask.ApachePOIAndSeleniumTestNG.model;
 
 public class Phone {
 	private String name;
