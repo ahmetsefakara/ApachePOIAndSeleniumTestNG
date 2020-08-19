@@ -14,7 +14,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import com.ask.ApachePOIAndSeleniumTestNG.model.Phone;
-import com.ask.ApachePOIAndSeleniumTestNG.util.Util;
+import com.ask.ApachePOIAndSeleniumTestNG.util.ExcelUtil;
 
 public class ExcelOperationImpl implements ExcelOperation {
 	private Workbook workbook;
@@ -38,11 +38,11 @@ public class ExcelOperationImpl implements ExcelOperation {
 
 				switch (columnIndex) {
 				case 0:
-					phone.setModel((String) Util.getCellValue(nextCell));
+					phone.setModel((String) ExcelUtil.getCellValue(nextCell));
 					// System.out.println(phone.getModel().toString());
 					break;
 				case 1:
-					phone.setName((String) Util.getCellValue(nextCell));
+					phone.setName((String) ExcelUtil.getCellValue(nextCell));
 					// System.out.println(phone.getName().toString());
 					break;
 				}
